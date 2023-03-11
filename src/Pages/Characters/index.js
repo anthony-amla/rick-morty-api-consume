@@ -16,7 +16,7 @@ function Characters() {
             <Navbar />
             <div className='Content-Characters-List'>
                 {isFetching ? <div className='Content-Characters-List-Status'>Carregando...</div> : DataResponse===null? <div className='Content-Characters-List-Status'>Sem nada!</div>: DataResponse?.map((Char) =>
-                    <a href={"/character/profile/"+Char.id} key={Char.id} data-charid={Char.id} className='Content-Characters-List-Item'>
+                    <a href={"https://anthony-amla.github.io/rick-morty-api-consume/character/profile/"+Char.id} key={Char.id} data-charid={Char.id} className='Content-Characters-List-Item'>
                         <div className='Content-Characters-List-Item-Photo'>
                             <img className='Content-Characters-List-Item-Photo-Img' src={Char.image} alt="Background" />
                         </div>

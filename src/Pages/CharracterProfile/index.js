@@ -3,7 +3,6 @@ import Navbar from '../../Components/Navbar';
 import { useFetch } from '../../Hooks/useFetch';
 import { React } from 'react';
 import { useNavigate, useParams } from 'react-router';
-import { FaOptinMonster } from 'react-icons/fa'
 
 
 function CharacterProfile() {
@@ -17,7 +16,6 @@ function CharacterProfile() {
     }
     return (
         <div className='Content-Character-Profile'>
-            <a href='/' className='Content-Character-Profile-Return'><FaOptinMonster /></a>
             <Navbar />
             <div className='Content-Character-Profile-Item'>
                 {DataCharisFetching ? <div className='Content-Characters-List-Status'>Carregando...</div> : DataResponse === null ? <div className='Content-Characters-List-Status'>Sem nada!</div> :
