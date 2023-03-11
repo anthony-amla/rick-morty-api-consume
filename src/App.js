@@ -10,11 +10,11 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/rick-morty-api-consume/' element={<Home />} />
-        <Route path='/rick-morty-api-consume/characters/*' element={<Characters/>} />
-        <Route path='/rick-morty-api-consume/character/profile/*' element={<CharacterProfile/>} />
-        <Route path='/rick-morty-api-consume/episodes/*' element={<Episodes/>} />
-        <Route path='/rick-morty-api-consume/*' element={<PageNotFound/>} />
+        <Route path='/' element={<Home />} />
+        <Route path='/characters/*' element={<Characters/>} />
+        <Route path='/character/profile/*' element={<CharacterProfile/>} />
+        <Route path='/episodes/*' element={<Episodes/>} />
+        <Route path='/*' element={<PageNotFound/>} />
       </Routes>
     </Router>
   );

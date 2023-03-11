@@ -2,7 +2,12 @@
 ReactJS Application with Axios for consuming API
 
 # Preview
-[PAGE PREVIEW](https://anthony-amla.github.io/rick-morty-api-consume/)
+
+[Preview 1](https://cdn.discordapp.com/attachments/1083900547679146004/1083900606227415060/image.png)
+[Preview 2](https://cdn.discordapp.com/attachments/1083900547679146004/1083900668282155009/image.png)
+[Preview 3](https://cdn.discordapp.com/attachments/1083900547679146004/1083900704571277403/image.png)
+[Preview 4](https://cdn.discordapp.com/attachments/1083900547679146004/1083900969613533254/image.png)
+[Preview 5](https://cdn.discordapp.com/attachments/1083900547679146004/1083901045291368488/image.png)
 
 ## Installation
 
