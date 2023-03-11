@@ -1,6 +1,8 @@
 # Rick and Morty APP - API CONSUME
 ReactJS Application with Axios for consuming API
 
+# Preview
+[PAGE PREVIEW](https://anthony-amla.github.io/rick-morty-api-consume/)
 
 ## Installation
 
