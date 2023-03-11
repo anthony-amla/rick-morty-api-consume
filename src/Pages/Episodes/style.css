@@ -1,0 +1,105 @@
+
+::-webkit-scrollbar {
+    width: 0.1vw;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--PrimaryBlueHover);
+    outline: 1px solid slategrey;
+}
+
+.Content-Episodes {
+    background: linear-gradient(180deg, #0B1B00 0%, #3E6322 0.01%, #429A00 50%, #122701 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+}
+
+.Content-Episodes-List {
+    width: 93%;
+    height: 73%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: auto;
+}
+
+
+.Content-Episodes-List-Status {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    color: white;
+    font-family: RickMortyFont;
+    letter-spacing: 1rem;
+}
+
+.Content-Episodes-List-Item {
+    width: 17%;
+    height: 12%;
+    background: #fff;
+    padding: 0.4%;
+    margin: 2.3% 0.3%;
+    border-radius: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    transition: ease-in-out 0.3s;
+    text-decoration: none;
+    color: black;
+}
+
+.Content-Episodes-List-Item-Info {
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1% 0;
+}
+
+.Content-Episodes-List-Title {
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+.Content-Episodes-List-Relase-Date {
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    text-align: end;
+    right: 2%;
+}
+
+.Content-Episodes-List-Item:hover {
+    background: #eee;
+    transform: scale(1.02);
+}
